@@ -1,0 +1,45 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16",
+    "assets_ref": "./library/bjd-asset-library.json",
+    "layers": [
+      {
+        "type": "background",
+        "style": "podcast_studio",
+        "curtain": {"color": "#232323", "texture": "velvet", "shadow": true},
+        "props": [
+          {
+            "type": "jersey_hanging",
+            "team": "New Mexico Ice Wolves",
+            "variant": "black",
+            "side": "front",
+            "reference_texture": "icewolves_black_front_ref",
+            "position": "back_left"
+          },
+          {
+            "type": "jersey_hanging",
+            "team": "New Mexico Ice Wolves",
+            "variant": "white",
+            "side": "back",
+            "reference_texture": "icewolves_white_back_ref",
+            "nameplate_text": "DANGLES",
+            "number": "96",
+            "position": "back_right"
+          }
+        ]
+      },
+      {
+        "type": "sign",
+        "style": "neon",
+        "position": {"top": 120, "left": "center"},
+        "text_lines": [
+          {"text": "JOHN", "color": "#FFA600", "font_size": 64, "weight": "bold", "neon_glow": true},
+          {"text": "DANGLES", "color": "#FFA600", "font_size": 64, "weight": "bold", "neon_glow": true},
+          {"text": "PODCAST", "color": "#00CCFF", "font_size": 56, "weight": "bold", "neon_glow": true}
+        ]
+      }
+    ]
+  }
+}
