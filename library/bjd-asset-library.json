@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "assets": {
+    "icewolves_logo_front": {
+      "type": "image",
+      "path": "images/icewolves_logo_front.png"
+    },
+    "nahl_patch": {
+      "type": "image",
+      "path": "images/nahl_patch.png"
+    },
+    "icewolves_black_front_ref": {
+      "type": "image",
+      "path": "images/icewolves_black_front_ref.jpg"
+    },
+    "icewolves_white_back_ref": {
+      "type": "image",
+      "path": "images/icewolves_white_back_ref.jpg"
+    },
+    "wolves_pendant": {
+      "type": "generated",
+      "text": "WOLVES",
+      "style": "block_diamond",
+      "gold_hex": "#D6AF36",
+      "diamond_tone": "clear",
+      "pave_density": "high"
+    }
+  }
+}
